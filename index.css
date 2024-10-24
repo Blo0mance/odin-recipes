@@ -1,0 +1,52 @@
+body {
+    box-sizing: border-box;
+    font-family: sans-serif;
+    background-image: url(./images/veggies.jpg);
+    background-size: cover;
+}
+
+a {
+    color: #ffffff;
+}
+
+a:hover {
+    color: gray;
+}
+
+.title {
+    border: solid rgb(255, 255, 255);
+    text-align: center;
+    margin: 5px;
+    padding: 20px;
+    font-size: 50px;
+    color: white;
+    background-color: transparent;
+}
+
+.underline {
+    width: 100%;
+    border: solid rgb(255, 255, 255);
+    height: -2px;
+    background-color: black;
+}
+
+.card {
+    width: 600px;
+    border: solid rgb(255, 255, 255);
+    font-size: 24px;
+    background: transparent;
+    margin: 100px auto;
+    padding: 8px;
+}
+
+.content {
+    padding-bottom: 8px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-right: 8px;
+    margin-bottom: 8px;
+}
+
+.list {
+    margin: 8px auto;
+}
